@@ -163,4 +163,8 @@ input {
     padding: 10px;
 }
 
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
